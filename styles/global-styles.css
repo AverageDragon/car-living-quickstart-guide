@@ -1,0 +1,21 @@
+body {
+   width: 75%;
+   margin: 0 auto;
+   border: 1px solid black;
+}
+
+.nav-item {
+   margin: auto 8px;
+}
+
+nav form {
+   width: 41%;
+}
+
+nav form input {
+   width: 70% !important;
+}
+
+nav form button {
+   width: 25% !important;
+}
