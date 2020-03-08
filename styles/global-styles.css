@@ -4,6 +4,12 @@ body {
    border: 1px solid black;
 }
 
+
+/* nav styles */
+nav {
+   border-bottom: 1px solid black;
+}
+
 .nav-item {
    margin: auto 8px;
 }
@@ -18,4 +24,37 @@ nav form input {
 
 nav form button {
    width: 25% !important;
+}
+
+/* End of nav styles */
+
+
+/* main styles */
+main {
+   margin: 24px;
+}
+
+aside {
+   width: 25%;
+   margin: 48px;
+}
+
+aside ul {
+   padding: 0;
+}
+
+aside li {
+   cursor: pointer;
+}
+
+aside .list-group-item-primary {
+   border-left: 3px solid blue !important;
+}
+
+aside .unselected:hover {
+   background-color: lightgray !important;
+}
+
+aside button {
+   margin-top: 24px;
 }
