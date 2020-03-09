@@ -1,13 +1,26 @@
 body {
    width: 70%;
    margin: 0 auto;
-   border: 1px solid black;
+   border: 1px solid #bbc6c9;
 }
+
+html {
+   background-color: #bbc6c9;
+}
+
+#wrapper {
+   background-color: white;
+   padding-bottom: 16px;
+   padding-left: 16px;
+   padding-right: 16px;
+}
+
 
 
 /* nav styles */
 nav {
-   border-bottom: 1px solid black;
+   padding-bottom: 16px !important;
+   padding-top: 16px !important;
 }
 
 .nav-item {
@@ -52,14 +65,15 @@ nav form button {
 /* End of nav styles */
 
 
-/* main styles */
 main {
    margin: 24px;
+   display: flex;
 }
 
+/* aside (guide navigation) styles */
 aside {
    width: 25%;
-   margin: 48px;
+   margin-right: 32px;
 }
 
 aside ul {
@@ -80,4 +94,12 @@ aside .unselected:hover {
 
 aside button {
    margin-top: 24px;
+}
+/* end of aside styles */
+
+
+/* Article (main content) styles */
+article {
+   border: 1px solid black;
+   width: 100%;
 }
