@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<!--
+  Jonathan H.
+  3/8/2020
+  Guide Organization
+-->
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="icon" type="image/ico" href="../img/favicon.ico">
+   
+   <!-- Change the PageNameHere depending on which page we are on -->
+   <title>Guide Organization - Car Living Quickstart Guide</title>
+
+   <!-- Bootstrap -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link href="../styles/global-styles.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="wrapper">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+				<div class="flexwrap" onclick="location.href='home.html';">
+					<img class="logo" src="../img/icon.svg"/>
+					<div class="logo-text">Car Living<br>Quickstart Guide</div>
+				</div>
+            </li>
+            <li class="nav-item active">
+               <button type="button" class="btn c2 btn-success btn-lg" onclick="location.href='resources.html';">Community Resources</button>
+            </li>
+            <li class="nav-item active">
+               <button type="button" class="btn c3 btn-danger btn-lg" onclick="window.open('https://old.reddit.com/r/vandwellers/');">Discussion Forum</button>
+            </li>
+         </ul>
+         <form class="form-inline my-2 my-lg-0" action="search.html" method="get">
+            <input class="form-control form-control-lg mr-sm-2" type="search" placeholder="Search the guide..." name="search" aria-label="Search">
+            <button class="btn btn-lg btn-secondary my-2 my-sm-0" type="submit">Search</button>
+         </form>
+      </div>
+   </nav>
+   
+   <main>
+      <!-- Icons are from remixicon.com -->
+      <aside>
+         <ul class="list-group-flush">
+			<!-- Add list-group-item-primary to the class of the currently selected page -->
+            <li class="list-group-item unselected" onclick="location.href='home.html';">
+               <img class="icon" src="../img/home-2-fill.svg"/>
+               Home Page
+            </li>
+            <li class="list-group-item list-group-item-primary" onclick="location.href='organization.html';">
+               <img class="icon" src="../img/bar-chart-2-fill.svg"/>
+               Guide Organization
+            </li>
+            <li class="list-group-item unselected" onclick="location.href='1-routine.html';">
+               <img class="icon" src="../img/number-1.svg"/>
+               Food, Sleep, and Hygiene
+            </li>
+            <li class="list-group-item unselected" onclick="location.href='2-privacy.html';">
+               <img class="icon" src="../img/number-2.svg"/>
+               Privacy, Security, and Parking
+            </li>
+            <li class="list-group-item unselected" onclick="location.href='3-interior.html';">
+               <img class="icon" src="../img/number-3.svg"/>
+               Interior Layout and Utilities
+            </li>
+            <li class="list-group-item unselected" onclick="location.href='4-paperwork.html';">
+               <img class="icon" src="../img/number-4.svg"/>
+               Jobs, Insurance, and Addresses
+            </li>
+            <li class="list-group-item unselected" onclick="location.href='conclusion.html';">
+               <img class="icon" src="../img/flag-fill.svg"/>
+               Conclusion
+            </li>
+         </ul>
+         <button type="button" class="btn btn-lg btn-outline-dark" onclick="location.href='feedback.html';">Feedback Form</button>
+      </aside>
+      
+      <article>
+         <!-- All normal content goes here -->
+		 
+		 <!-- Remove "no-page" from the buttons as appropriate, and rename the sections -->
+         <div class="page-buttons">
+            <button type="button" class="btn btn-info btn" onclick="location.href='conclusion.html';">
+               Previous (Home Page)
+            </button>
+            <button type="button" class="btn btn-info btn" onclick="location.href='conclusion.html';">
+               Next (Food, Sleep, and Hygiene)
+            </button>
+         </div>
+      </article>
+   </main>
+</div>
+</body>
+
+</html>
