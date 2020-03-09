@@ -64,6 +64,25 @@ nav form button {
    width: 25% !important;
 }
 
+.flexwrap {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	font-weight: bold;
+}
+
+.flexwrap:hover {
+	cursor: pointer;
+}
+
+.logo {
+	height: 80px;
+}
+
+.logo-text {
+	font-size: 16pt !important;
+}
+
 /* End of nav styles */
 
 main {
