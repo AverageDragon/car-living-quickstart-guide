@@ -1,5 +1,5 @@
 body {
-   width: 70%;
+   width: 75%;
    margin: 0 auto;
    border: 1px solid #bbc6c9;
 }
@@ -72,7 +72,8 @@ main {
 
 /* aside (guide navigation) styles */
 aside {
-   width: 25%;
+   width: 30%;
+   min-width: 300px;
    margin-right: 32px;
 }
 
@@ -90,6 +91,12 @@ aside .list-group-item-primary {
 
 aside .unselected:hover {
    background-color: lightgray !important;
+}
+
+aside img {
+   height: 24px;
+   padding-bottom: 4px;
+   padding-right: 16px;
 }
 
 aside button {
