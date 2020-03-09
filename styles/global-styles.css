@@ -6,6 +6,7 @@ body {
 
 html {
    background-color: #bbc6c9;
+   scroll-behavior: smooth;
 }
 
 #wrapper {
@@ -107,6 +108,20 @@ aside button {
 
 /* Article (main content) global styles */
 article {
-   border: 1px solid black;
+   margin-left: 24px;
+   margin-right: 24px;
    width: 100%;
+}
+
+.c {
+   margin-left: 16px;
+}
+
+.page-buttons {
+   display: flex;
+   justify-content: space-between;
+}
+
+.no-page {
+   visibility: hidden !important;
 }
