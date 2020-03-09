@@ -28,14 +28,15 @@ nav {
 }
 
 nav form {
-   width: 30%;
+   width: 29.5%;
 }
 
 nav ul {
    width: 70%;
 }
+
 nav ul li {
-   width: 30%;
+   width: 32%;
 }
 
 nav ul li button {
@@ -63,7 +64,6 @@ nav form button {
 }
 
 /* End of nav styles */
-
 
 main {
    margin: 24px;
@@ -101,11 +101,11 @@ aside img {
 
 aside button {
    margin-top: 24px;
+   width: 100%;
 }
 /* end of aside styles */
 
-
-/* Article (main content) styles */
+/* Article (main content) global styles */
 article {
    border: 1px solid black;
    width: 100%;
