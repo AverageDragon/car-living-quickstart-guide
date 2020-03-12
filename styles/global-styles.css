@@ -145,3 +145,36 @@ article {
 .no-page {
    visibility: hidden !important;
 }
+
+.flexbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 16px;
+}
+
+article table {
+   margin-top: 24px;
+   table-layout: fixed;
+}
+
+.t1 {
+   width: 70%;
+}
+
+.t2 {
+   width: 30%;
+}
+
+.th-icon, .td-icon {
+   height: 24px;
+   margin-right: 4px;
+}
+
+.td-icon {
+   cursor: pointer;
+}
+
+article table a {
+   color: black;
+}
