@@ -89,6 +89,7 @@ nav form button {
 main {
    margin: 24px;
    display: flex;
+   flexwrap: wrap;
 }
 
 /* aside (guide navigation) styles */
