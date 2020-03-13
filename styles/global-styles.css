@@ -146,10 +146,14 @@ article {
    visibility: hidden !important;
 }
 
+/* Resources table styles */
 .flexbar {
    display: flex;
    justify-content: space-between;
-   align-items: center;
+   align-items: flex-start;
+}
+
+.resourcesbar {
    margin-bottom: 16px;
 }
 
@@ -178,3 +182,39 @@ article table {
 article table a {
    color: black;
 }
+
+/* Search results styles */
+
+.res {
+   width: 90%;
+   border: 2px solid lightgray;
+   margin: 16px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 8px;
+   padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
