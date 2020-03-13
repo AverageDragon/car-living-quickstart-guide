@@ -25,16 +25,15 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-				<div class="flexwrap" onclick="location.href='home.html';">
-					<img class="logo" src="../img/icon.svg"/>
-					<div class="logo-text">Car Living<br>Quickstart Guide</div>
-				</div>
+               <a href="home.html">
+                  <img class="logo" src="../img/logotext.png"/>
+               </a>
             </li>
             <li class="nav-item active">
-               <button type="button" class="btn c2 btn-success btn-lg" onclick="location.href='resources.html';">Community Resources</button>
+               <a type="button" class="btn c2 btn-success btn-lg" href="resources.html">Community Resources</a>
             </li>
             <li class="nav-item active">
-               <button type="button" class="btn c3 btn-danger btn-lg" onclick="window.open('https://old.reddit.com/r/vandwellers/');">Discussion Forum</button>
+               <a type="button" class="btn c3 btn-danger btn-lg" href="https://old.reddit.com/r/vandwellers/" target="_blank">Discussion Forum</a>
             </li>
          </ul>
          <form class="form-inline my-2 my-lg-0" action="search.html" method="get">
@@ -49,36 +48,50 @@
       <aside>
          <ul class="list-group-flush">
 			<!-- Add list-group-item-primary to the class of the currently selected page -->
-            <li class="list-group-item unselected" onclick="location.href='home.html';">
-               <img class="icon" src="../img/home-2-fill.svg"/>
-               Home Page
+            <li class="list-group-item unselected">
+               <a href="home.html">
+                  <img class="icon" src="../img/home-2-fill.svg"/>
+                  Home Page
+               </a>
             </li>
-            <li class="list-group-item unselected" onclick="location.href='organization.html';">
-               <img class="icon" src="../img/bar-chart-2-fill.svg"/>
-               Guide Organization
+            <li class="list-group-item unselected">
+               <a href="organization.html">
+                  <img class="icon" src="../img/bar-chart-2-fill.svg"/>
+                  Guide Organization
+               </a>
             </li>
-            <li class="list-group-item unselected" onclick="location.href='1-routine.html';">
-               <img class="icon" src="../img/number-1.svg"/>
-               Food, Sleep, and Hygiene
+            <li class="list-group-item unselected">
+               <a href="1-routine.html">
+                  <img class="icon" src="../img/number-1.svg"/>
+                  Food, Sleep, and Hygiene
+               </a>
             </li>
-            <li class="list-group-item unselected" onclick="location.href='2-privacy.html';">
-               <img class="icon" src="../img/number-2.svg"/>
-               Privacy, Security, and Parking
+            <li class="list-group-item unselected">
+               <a href="2-privacy.html">
+                  <img class="icon" src="../img/number-2.svg"/>
+                  Privacy, Security, and Parking
+               </a>
             </li>
-            <li class="list-group-item unselected" onclick="location.href='3-interior.html';">
-               <img class="icon" src="../img/number-3.svg"/>
-               Interior Layout and Utilities
+            <li class="list-group-item unselected">
+               <a href="3-interior.html">
+                  <img class="icon" src="../img/number-3.svg"/>
+                  Interior Layout and Utilities
+               </a>
             </li>
-            <li class="list-group-item unselected" onclick="location.href='4-paperwork.html';">
-               <img class="icon" src="../img/number-4.svg"/>
-               Jobs, Insurance, and Addresses
+            <li class="list-group-item unselected">
+               <a href="4-paperwork.html">
+                  <img class="icon" src="../img/number-4.svg"/>
+                  Jobs, Insurance, and Addresses
+               </a>
             </li>
-            <li class="list-group-item list-group-item-primary" onclick="location.href='conclusion.html';">
-               <img class="icon" src="../img/flag-fill.svg"/>
-               Conclusion
+            <li class="list-group-item list-group-item-primary">
+               <a href="conclusion.html">
+                  <img class="icon" src="../img/flag-fill.svg"/>
+                  Conclusion
+               </a>
             </li>
          </ul>
-         <button type="button" class="btn btn-lg btn-outline-dark" onclick="location.href='feedback.html';">Feedback Form</button>
+         <a href="feedback.html" class="btn btn-lg btn-outline-dark">Feedback Form</a>
       </aside>
       
       <article>
@@ -86,12 +99,12 @@
 		 
 		 <!-- Remove "no-page" from the buttons as appropriate, and rename the sections -->
          <div class="page-buttons">
-            <button type="button" class="btn btn-info btn" onclick="location.href='4-paperwork.html';">
+            <a type="button" class="btn btn-info btn" href='4-paperwork.html'>
                Previous (Jobs, Insurance, and Addresses)
-            </button>
-            <button type="button" class="btn btn-info btn no-page" onclick="location.href='conclusion.html';">
+            </a>
+            <a type="button" class="btn btn-info btn no-page" href='conclusion.html'>
                Next (Next Section)
-            </button>
+            </a>
          </div>
       </article>
    </main>
